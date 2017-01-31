@@ -1,4 +1,4 @@
-<?php declare(strict_types=1);
+<?php
 /**
  * Automatic loading of classes.
  * 
@@ -8,9 +8,9 @@
  * @author     Josantonius - info@josantonius.com
  * @copyright  Copyright (c) 2017 JST PHP Framework
  * @license    https://opensource.org/licenses/MIT - The MIT License (MIT)
- * @version    1.0.0
+ * @version    1.1.0
  * @link       https://github.com/Josantonius/PHP-Autoload
- * @since      File available since 1.0.0 - Update: 2017-01-17
+ * @since      File available since 1.0.0 - Update: 2017-01-30
  */
 
 namespace Josantonius\Autoload as Register;
@@ -37,7 +37,7 @@ class Autoload {
      * @throws AutoloadException → file was not found
 	 * @return require file      → load the class file
 	 */
-	public static function autoloadClass(string $class) { 
+	public static function autoloadClass($class) { 
 
 	    $file = getcwd() . '/' . str_replace('\\', '/', $class) . '.php';
 
