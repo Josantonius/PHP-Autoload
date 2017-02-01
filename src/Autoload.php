@@ -13,7 +13,7 @@
  * @since      File available since 1.0.0 - Update: 2017-01-30
  */
 
-namespace Josantonius\Autoload as Register;
+namespace Josantonius\Autoload;
 
 use Josantonius\Autoload\Exception\AutoloadException;
 
@@ -52,4 +52,4 @@ class Autoload {
 	}
 }
 
-spl_autoload_register("Register\Autoload::autoloadClass");
+spl_autoload_register("Josantonius\Autoload\Autoload::autoloadClass");
