@@ -103,10 +103,14 @@ Esto está pensado para proyectos grandes y de larga duración.
 
 Los archivos de este repositorio se crearon y subieron automáticamente con [Reposgit Creator](https://github.com/Josantonius/BASH-Reposgit).
 
-### Autor
-
-Mantenido por [Josantonius](https://github.com/Josantonius/).
-
 ### Licencia
 
-Este proyecto está licenciado bajo la **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+Este proyecto está licenciado bajo **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+### Copyright
+
+2017 Josantonius, [josantonius.com](https://josantonius.com/)
+
+Si te ha resultado útil, házmelo saber :wink:
+
+Puedes contactarme en [Twitter](https://twitter.com/Josantonius) o a través de mi [correo electrónico](mailto:hello@josantonius.com).
