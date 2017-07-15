@@ -39,12 +39,11 @@ class Autoload {
 
         if (file_exists($file)) {
 
-            require_once $file;
+            return require_once $file;
 
-        } else { 
+        }
 
-            throw new AutoloadException('File not found:' . $file, 615);
-        }   
+        throw new AutoloadException('File not found:' . $file, 615);
     }
 }
 
