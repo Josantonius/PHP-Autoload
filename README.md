@@ -25,7 +25,7 @@ Automatic loading of classes.
 <p align="center"><strong>Take a look at the code</strong></p>
 
 <p align="center">
-  <a href="" title="Take a look at the code">
+  <a href="https://youtu.be/O3ur-2O5ASE" title="Take a look at the code">
   	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
   </a>
 </p>

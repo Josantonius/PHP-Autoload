@@ -22,6 +22,16 @@ Carga automática de clases.
 
 ---
 
+<p align="center"><strong>Echa un vistazo al código</strong></p>
+
+<p align="center">
+  <a href="https://youtu.be/O3ur-2O5ASE" title="Echa un vistazo al código">
+  	<img src="https://raw.githubusercontent.com/Josantonius/PHP-Algorithm/master/resources/youtube-thumbnail.jpg">
+  </a>
+</p>
+
+---
+
 ### Instalación 
 
 La mejor forma de instalar esta extensión es a través de [composer](http://getcomposer.org/download/).
@@ -44,21 +54,21 @@ Esta biblioteca es soportada por versiones de PHP 5.6 o superiores y es compatib
 
 ### Cómo empezar y ejemplos
 
-Para utilizar esta librería, simplemente:
+Para utilizar esta biblioteca, simplemente:
 
 ```php
 require __DIR__ . '/vendor/autoload.php';
 ```
 ### Métodos disponibles
 
-Métodos disponibles en esta librería:
+Métodos disponibles en esta biblioteca:
 
 ```php
 Autoload::autoloadClass();
 ```
 ### Uso
 
-Ejemplo de uso para esta librería:
+Ejemplo de uso para esta biblioteca:
 
 ```php
 <?php
@@ -81,7 +91,7 @@ $loader->addPsr4('Josantonius\\Autoload\\Tests\\', __DIR__ . '/vendor/josantoniu
 
 use Josantonius\Autoload\Tests\AutoloadTest;
 ```
-Métodos de prueba disponibles en esta librería:
+Métodos de prueba disponibles en esta biblioteca:
 
 ```php
 AutoloadTest::testAutoloadClass();
@@ -89,7 +99,7 @@ AutoloadTest::testAutoloadClass();
 
 ### Manejador de excepciones
 
-Esta librería utiliza [control de excepciones](src/Exception) que puedes personalizar a tu gusto.
+Esta biblioteca utiliza [control de excepciones](src/Exception) que puedes personalizar a tu gusto.
 ### Contribuir
 1. Comprobar si hay incidencias abiertas o abrir una nueva para iniciar una discusión en torno a un fallo o función.
 1. Bifurca la rama del repositorio en GitHub para iniciar la operación de ajuste.
