@@ -13,7 +13,6 @@ Automatic loading of classes.
 - [Quick Start and Examples](#quick-start-and-examples)
 - [Available Methods](#available-methods)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Exception Handler](#exception-handler)
 - [Contribute](#contribute)
 - [Repository](#repository)
@@ -77,25 +76,6 @@ require __DIR__ . '/vendor/autoload.php';
 use resources\TestClass;
 
 print_r(TestClass::init()); /* Response from the test class. */
-```
-
-### Tests 
-
-To use the [test](tests) class, simply:
-
-```php
-<?php
-$loader = require __DIR__ . '/vendor/autoload.php';
-
-$loader->addPsr4('Josantonius\\Autoload\\Tests\\', __DIR__ . '/vendor/josantonius/autoload/tests');
-
-use Josantonius\Autoload\Tests\AutoloadTest;
-
-```
-Available test methods in this library:
-
-```php
-AutoloadTest::testAutoloadClass();
 ```
 
 ### Exception Handler

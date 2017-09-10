@@ -13,7 +13,6 @@ Carga automática de clases.
 - [Cómo empezar y ejemplos](#cómo-empezar-y-ejemplos)
 - [Métodos disponibles](#métodos-disponibles)
 - [Uso](#uso)
-- [Tests](#tests)
 - [Manejador de excepciones](#manejador-de-excepciones)
 - [Contribuir](#contribuir)
 - [Repositorio](#repositorio)
@@ -77,24 +76,6 @@ require __DIR__ . '/vendor/autoload.php';
 use resources\TestClass;
 
 print_r(TestClass::init()); /* Response from the test class. */
-```
-
-### Tests 
-
-Para utilizar la clase de [pruebas](tests), simplemente:
-
-```php
-<?php
-$loader = require __DIR__ . '/vendor/autoload.php';
-
-$loader->addPsr4('Josantonius\\Autoload\\Tests\\', __DIR__ . '/vendor/josantonius/autoload/tests');
-
-use Josantonius\Autoload\Tests\AutoloadTest;
-```
-Métodos de prueba disponibles en esta biblioteca:
-
-```php
-AutoloadTest::testAutoloadClass();
 ```
 
 ### Manejador de excepciones

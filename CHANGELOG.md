@@ -1,7 +1,11 @@
 # CHANGELOG
 
-## 1.1.1 - 2017-03-18
+## 1.1.1 - 2017-09-11
+
 * Some files were excluded from download and comments and readme files were updated.
+
+* Deleted `Josantonius\Autoload\Tests\AutoloadTest` class.
+* Deleted `Josantonius\Autoload\Tests\AutoloadTest::testAutoloadClass()` method.
 
 ## 1.1.0 - 2017-01-30
 * Compatible with PHP 5.6 or higher.

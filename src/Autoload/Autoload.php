@@ -40,7 +40,6 @@ class Autoload {
         if (file_exists($file)) {
 
             return require_once $file;
-
         }
 
         throw new AutoloadException('File not found:' . $file, 615);

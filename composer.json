@@ -30,12 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Josantonius\\Autoload\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Josantonius\\Autoload\\Tests\\": "tests/"
+            "Josantonius\\Autoload\\": "src/Autoload/"
         }
     },
     "extra": {
