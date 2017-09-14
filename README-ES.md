@@ -4,7 +4,7 @@
 
 [English version](README.md)
 
-Carga automática de clases.
+Carga automática de clases. 
 
 ---
 

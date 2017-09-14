@@ -17,7 +17,7 @@ Automatic loading of classes.
 - [Contribute](#contribute)
 - [Repository](#repository)
 - [License](#license)
-- [Copyright](#copyright)
+- [Copyright](#copyright) 
 
 ---
 

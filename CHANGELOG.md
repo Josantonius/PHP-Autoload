@@ -25,3 +25,4 @@
 ## 1.0.0 - 2017-01-17
 * Added `Josantonius\Autoload\Tests\AutoloadTest` class.
 * Added `Josantonius\Autoload\Tests\AutoloadTest::testAutoloadClass()` method.
+ 

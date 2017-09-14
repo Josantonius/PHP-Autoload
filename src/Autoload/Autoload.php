@@ -23,7 +23,7 @@ class Autoload {
     /**
      * Autoload of classes.
      *
-     * @since 1.0.0
+     * @since 1.0.0 
      *
      * @uses autoloadClass() recive "NameSpace\ClassName"
      * @uses $file saves file path of the class and if it exists it loads it.

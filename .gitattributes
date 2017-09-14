@@ -7,4 +7,4 @@ contributors.txt export-ignore
 README.md export-ignore
 README-ES.md export-ignore
 .editorconfig export-ignore
-composer.lock export-ignore
+composer.lock export-ignore 

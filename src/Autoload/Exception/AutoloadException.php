@@ -20,7 +20,7 @@ namespace Josantonius\Autoload\Exception;
  *
  * @link https://github.com/Josantonius/PHP-ErrorHandler
  */
-class AutoloadException extends \Exception { 
+class AutoloadException extends \Exception {  
 
     /**
      * Exception handler.
