@@ -1,4 +1,4 @@
-# PHP Autoload library
+# PHP Autoload library (OBSOLETO)
 
 [![Latest Stable Version](https://poser.pugx.org/josantonius/autoload/v/stable)](https://packagist.org/packages/josantonius/autoload) [![Total Downloads](https://poser.pugx.org/josantonius/autoload/downloads)](https://packagist.org/packages/josantonius/autoload) [![Latest Unstable Version](https://poser.pugx.org/josantonius/autoload/v/unstable)](https://packagist.org/packages/josantonius/autoload) [![License](https://poser.pugx.org/josantonius/autoload/license)](https://packagist.org/packages/josantonius/autoload)
 
